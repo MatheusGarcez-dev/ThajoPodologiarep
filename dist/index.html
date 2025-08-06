@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="imgs/logotipos/Faviconn.png">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <title>Thajo Podologia | Oficial</title>
+  </head>
+  <body class="m-0 p-0 ">
+    <header
+      class="absolute top-0 left-1/2 mt-3.5 -translate-x-1/2 max-w-[1280px] w-full rounded-full flex justify-between bg-[#fcfcfc] items-center px-6 py-3 shadow-xl z-50"
+    >
+      <a href="#">
+        <img
+          src="imgs/logotipos/ThajoPadrao.png"
+          alt="Logo-Header"
+          width="60"
+        />
+      </a>
+
+      <div class="flex items-center gap-4">
+        <!-- Menu Desktop (sempre visível em telas grandes) -->
+        <nav class="hidden md:flex gap-4 text-[#4F705C] text-sm">
+          <a href="#inicio" class="hover:text-[#dedede] transition-all">Início</a>
+          <a href="#tratamentos" class="hover:text-[#dedede] transition-all"
+            >Tratamentos</a
+          >
+          <a href="#avaliacoes" class="hover:text-[#dedede] transition-all">Avaliações</a>
+          <a href="#thajo" class="hover:text-[#dedede] transition-all">Thajo</a>
+          <a href="#sobre" class="hover:text-[#dedede] transition-all">Sobre Nós</a>
+          <a href="#local" class="hover:text-[#dedede] transition-all"
+            >Onde Estamos</a
+          >
+        </nav>
+
+        <!-- Menu Mobile (começa sempre hidden) -->
+        <nav
+          class="nav-menu fixed top-0 left-0 w-full h-screen bg-white py-10 flex-col items-center gap-6 text-[#4F705C] text-sm hidden opacity-0 transition-all duration-300 z-50"
+        >
+          <a href="#inicio" class="hover:text-[#dedede] transition-all item-menu"
+            >Início</a
+          >
+          <a href="#tratamentos" class="hover:text-[#dedede] transition-all item-menu"
+            >Tratamentos</a
+          >
+          <a href="#avaliacoes" class="hover:text-[#dedede] transition-all item-menu"
+            >Avaliações</a
+          >
+          <a href="#thajo" class="hover:text-[#dedede] transition-all item-menu"
+            >Thajo</a
+          >
+          <a href="#sobre" class="hover:text-[#dedede] transition-all item-menu"
+            >Sobre Nós</a
+          >
+          <a href="#local" class="hover:text-[#dedede] transition-all item-menu"
+            >Onde Estamos</a
+          >
+        </nav>
+
+        <a
+          href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
+          class="hidden md:block group relative hover:border-2 hover:border-solid hover:border-[#7FA384] overflow-hidden rounded-4xl bg-white px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
+        >
+          <span
+            class="relative z-10 text-teal-50 transition-colors duration-400 group-hover:text-[#7FA384]"
+            >Agendar Agora</span
+          >
+          <span
+            class="absolute left-[-10%] top-0 z-0 h-full w-[120%] -skew-x-12 bg-[#7FA384] transition-transform duration-400 cubic-bezier(0.4, 0, 0.2, 1) group-hover:translate-x-full"
+          ></span>
+        </a>
+      </div>
+
+      <!-- Botão sanduíche -->
+      <div
+        class="sanduiche group block md:hidden flex flex-col justify-center items-center w-10 h-10 cursor-pointer gap-1.5 z-50 transition-all duration-300"
+      >
+        <span
+          class="barra block h-1 w-8 bg-[#4F705C] rounded transition-all duration-300 group-[.active]:translate-y-[10px] group-[.active]:rotate-45"
+        ></span>
+        <span
+          class="barra block h-1 w-8 bg-[#4F705C] rounded transition-all duration-300 group-[.active]:opacity-0"
+        ></span>
+        <span
+          class="barra block h-1 w-8 bg-[#4F705C] rounded transition-all duration-300 group-[.active]:-translate-y-[10px] group-[.active]:-rotate-45"
+        ></span>
+      </div>
+    </header>
+    <section
+      class="w-full min-h-screen bg-fixed bg-cover bg-center bg-no-repeat relative z-0"
+      style="background-image: url(imgs/Section1/imgsec1.png)"
+      id="inicio"
+    >
+      <div
+        class="flex items-center xl:pl-24 z-10 justify-items-start min-h-screen px-4"
+      >
+        <div
+          class="space-y-6 md:ml-24 bg-transparent backdrop-blur-md max-w-[635px] w-full h-[354px] p-6 rounded-4xl shadow-xl flex flex-col justify-center pl-10 md:pl-10"
+        >
+          <h1 class="text-4xl md:text-5xl text-[#7FA384] font-semibold">
+            Cuidar dos seus pés é cuidar do seu bem-estar
+          </h1>
+          <p class="text-lg md:text-2xl text-[#4F705C] font-extralight">
+            Cada detalhe importa: oferecemos cuidado completo para a sua saúde
+            podal
+          </p>
+          <a
+            href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
+            class="group relative inline-block w-max overflow-hidden rounded-4xl bg-white px-6 py-2 text-[1rem] font-medium tracking-wide text-ghostwhite no-underline hover:border-2 hover:border-solid hover:border-[#7FA384]"
+          >
+            <span
+              class="relative z-10 text-teal-50 transition-colors duration-400 group-hover:text-[#7FA384]"
+              >Agendar Agora</span
+            >
+            <span
+              class="absolute left-[-10%] top-0 z-0 h-full w-[120%] -skew-x-12 bg-[#7FA384] transition-transform duration-400 ease-in-out group-hover:translate-x-full"
+            ></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-[#4F705C] p-[(50px, 7%)] z-10 -mt-8 pt-8 pb-8" id="tratamentos">
+      <i
+        class="bi bi-arrow-down-circle-fill text-[#7FA384] text-4xl flex justify-center pt-10"
+      ></i>
+      <h1
+        class="titulo pt-4 text-teal-50 font-semibold flex mb-2 justify-center"
+      >
+        Nossos Tratamentos
+      </h1>
+      <p class="text-center paragrafo text-white max-w-5xl mx-auto">
+        Cuidamos da saúde dos seus pés com tratamentos podológicos seguros,
+        eficazes e personalizados para cada necessidade.
+      </p>
+      <!-- grid  -->
+      <div
+        class="flex flex-col md:flex-row justify-center gap-4 items-center mb-4"
+      >
+        <!-- card -->
+        <div
+          class="w-[260px] rounded-4xl bg-[#7FA384] shadow-2xl h-[315px] transition-transform duration-300 hover:-translate-y-1"
+        >
+          <img class="p-0" src="imgs/Section2/trattradic.png" alt="" />
+          <div class="p-4">
+            <h1 class="text-[18px] text-white font-semibold mb-1.5">
+              Tratamento Trandicional
+            </h1>
+            <p class="text-[12px] line-clamp-3 text-white leading-5">
+              Assepsia,  corte correto da lâminas (unhas), limpeza das pregas
+              periungueais, remoção de calos e calosidades.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
+              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-2.5 hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
+            >
+              <span
+                class="relative z-10 text-[#7FA384] transition-colors duration-400 group-hover:text-white"
+                >Agendar Agora</span
+              >
+              <span
+                class="absolute left-[-10%] top-0 z-0 h-full w-[120%] -skew-x-12 bg-white transition-transform duration-400 cubic-bezier(0.4, 0, 0.2, 1) group-hover:translate-x-full"
+              ></span>
+            </a>
+          </div>
+        </div>
+        <!-- fim do card -->
+        <!-- card -->
+        <div
+          class="w-[260px] rounded-4xl bg-[#7FA384] shadow-2xl leading-5 h-[315px] transition-transform duration-300 hover:-translate-y-1"
+        >
+          <img class="p-0" src="imgs/Section2/bebe.png" alt="" />
+          <div class="p-4">
+            <h1 class="text-[16px] text-white font-semibold mb-1.5">
+              Tratamento Infantil
+            </h1>
+            <p class="text-[12px] line-clamp-3 text-white leading-5">
+              Higienização, corte correto das unhas, limpeza das pregas
+              periungueais, cuidado especial e personalizado para as crianças.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
+              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-4 hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
+            >
+              <span
+                class="relative z-10 text-[#7FA384] transition-colors duration-400 group-hover:text-white"
+                >Agendar Agora</span
+              >
+              <span
+                class="absolute left-[-10%] top-0 z-0 h-full w-[120%] -skew-x-12 bg-white transition-transform duration-400 cubic-bezier(0.4, 0, 0.2, 1) group-hover:translate-x-full"
+              ></span>
+            </a>
+          </div>
+        </div>
+        <!-- fim do card -->
+        <!-- card -->
+        <div
+          class="w-[260px] rounded-4xl bg-[#7FA384] shadow-2xl h-[315px] transition-transform duration-300 hover:-translate-y-1"
+        >
+          <img class="p-0" src="imgs/Section2/infec.png" alt="" />
+          <div class="p-4">
+            <h1 class="text-[18px] text-white font-semibold mb-1.5">
+              Tratamento de Infecção
+            </h1>
+            <p class="text-[12px] line-clamp-3 text-white leading-5">
+              Assepsia, remoção de espícula, aplicação de auto freqüência e
+              curativo oclusivo.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
+              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-7 hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
+            >
+              <span
+                class="relative z-10 text-[#7FA384] transition-colors duration-400 group-hover:text-white"
+                >Agendar Agora</span
+              >
+              <span
+                class="absolute left-[-10%] top-0 z-0 h-full w-[120%] -skew-x-12 bg-white transition-transform duration-400 cubic-bezier(0.4, 0, 0.2, 1) group-hover:translate-x-full"
+              ></span>
+            </a>
+          </div>
+        </div>
+        <!-- fim do card -->
+      </div>
+      <!-- fim do grid  -->
+      <!-- grid  -->
+      <div
+        class="flex flex-col md:flex-row justify-center gap-4 items-center mb-4"
+      >
+        <!-- card -->
+        <div
+          class="w-[260px] rounded-4xl bg-[#7FA384] shadow-2xl h-[315px] transition-transform duration-300 hover:-translate-y-1"
+        >
+          <img class="p-0" src="imgs/Section2/curativo.png" alt="" />
+          <div class="p-4">
+            <h1 class="text-[18px] text-white font-semibold mb-1.5">
+              Curativo
+            </h1>
+            <p class="text-[12px] line-clamp-3 text-white leading-5">
+              Limpeza com soro, aplicação de pomada se preciso, evitando
+              contaminações, aliviando a dor e ajudando na cicatrização.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
+              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-2.5 hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
+            >
+              <span
+                class="relative z-10 text-[#7FA384] transition-colors duration-400 group-hover:text-white"
+                >Agendar Agora</span
+              >
+              <span
+                class="absolute left-[-10%] top-0 z-0 h-full w-[120%] -skew-x-12 bg-white transition-transform duration-400 cubic-bezier(0.4, 0, 0.2, 1) group-hover:translate-x-full"
+              ></span>
+            </a>
+          </div>
+        </div>
+        <!-- fim do card -->
+        <!-- card -->
+        <div
+          class="w-[260px] rounded-4xl bg-[#7FA384] shadow-2xl h-[315px] transition-transform duration-300 hover:-translate-y-1"
+        >
+          <img class="p-0" src="imgs/Section2/verruga.png" alt="" />
+          <div class="p-4">
+            <h1 class="text-[16px] text-white font-semibold mb-1.5 leading-5">
+              Cauterização de Verruga Plantar (olho de peixe)
+            </h1>
+            <p class="text-[12px] line-clamp-3 text-white leading-5">
+              Limpeza, remoção da calosidade excessiva e uso de pomada no local
+              afetado.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
+              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-4 hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
+            >
+              <span
+                class="relative z-10 text-[#7FA384] transition-colors duration-400 group-hover:text-white"
+                >Agendar Agora</span
+              >
+              <span
+                class="absolute left-[-10%] top-0 z-0 h-full w-[120%] -skew-x-12 bg-white transition-transform duration-400 cubic-bezier(0.4, 0, 0.2, 1) group-hover:translate-x-full"
+              ></span>
+            </a>
+          </div>
+        </div>
+        <!-- fim do card -->
+        <!-- card -->
+        <div
+          class="w-[260px] rounded-4xl bg-[#7FA384] shadow-2xl h-[315px] transition-transform duration-300 hover:-translate-y-1"
+        >
+          <img class="p-0" src="imgs/Section2/hidraparaf.png" alt="" />
+          <div class="p-4">
+            <h1 class="text-[18px] text-white font-semibold mb-1.5">
+              Hidratação com Parafina
+            </h1>
+            <p class="text-[12px] line-clamp-3 text-white leading-5">
+              Esfoliação dos pés com hidratação intensa por parafina e bota
+              térmica, que nutrem profundamente e evitam rachaduras.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
+              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-2.5 hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
+            >
+              <span
+                class="relative z-10 text-[#7FA384] transition-colors duration-400 group-hover:text-white"
+                >Agendar Agora</span
+              >
+              <span
+                class="absolute left-[-10%] top-0 z-0 h-full w-[120%] -skew-x-12 bg-white transition-transform duration-400 cubic-bezier(0.4, 0, 0.2, 1) group-hover:translate-x-full"
+              ></span>
+            </a>
+          </div>
+        </div>
+        <!-- fim do card -->
+      </div>
+      <!-- fim do grid  -->
+      <!-- grid  -->
+      <div
+        class="flex flex-col md:flex-row justify-center gap-4 items-center mb-4"
+      >
+        <!-- card -->
+        <div
+          class="w-[260px] rounded-4xl bg-[#7FA384] shadow-2xl h-[315px] transition-transform duration-300 hover:-translate-y-1"
+        >
+          <img class="p-0" src="imgs/Section2/ortose.png" alt="" />
+          <div class="p-4">
+            <h1 class="text-[18px] text-white font-semibold mb-1.5">Órtese</h1>
+            <p class="text-[12px] line-clamp-3 text-white leading-5">
+              A órtese é um dispositivo fixado à unha que promove tração
+              mecânica, corrigindo deformações e aliviando dores.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
+              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-2.5 hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
+            >
+              <span
+                class="relative z-10 text-[#7FA384] transition-colors duration-400 group-hover:text-white"
+                >Agendar Agora</span
+              >
+              <span
+                class="absolute left-[-10%] top-0 z-0 h-full w-[120%] -skew-x-12 bg-white transition-transform duration-400 cubic-bezier(0.4, 0, 0.2, 1) group-hover:translate-x-full"
+              ></span>
+            </a>
+          </div>
+        </div>
+        <!-- fim do card -->
+        <!-- card -->
+        <div
+          class="w-[260px] rounded-4xl bg-[#7FA384] shadow-2xl h-[315px] transition-transform duration-300 hover:-translate-y-1"
+        >
+          <img class="p-0" src="imgs/Section2/laserterap.png" alt="" />
+          <div class="p-4">
+            <h1 class="text-[18px] line-clamp-3 text-white font-semibold mb-1.5">
+              laserterapia
+            </h1>
+            <p class="text-[12px] text-white leading-5">
+              O tratamento com laser atua diretamente na unha, combatendo
+              fungos, estimulando seu crescimento e tratando fissuras.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
+              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-2.5 hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
+            >
+              <span
+                class="relative z-10 text-[#7FA384] transition-colors duration-400 group-hover:text-white"
+                >Agendar Agora</span
+              >
+              <span
+                class="absolute left-[-10%] top-0 z-0 h-full w-[120%] -skew-x-12 bg-white transition-transform duration-400 cubic-bezier(0.4, 0, 0.2, 1) group-hover:translate-x-full"
+              ></span>
+            </a>
+          </div>
+        </div>
+        <!-- fim do card -->
+        <!-- card -->
+        <div
+          class="w-[260px] rounded-4xl bg-[#7FA384] shadow-2xl h-[315px] transition-transform duration-300 hover:-translate-y-1"
+        >
+          <img class="p-0" src="imgs/Section2/reflexo.png" alt="" />
+          <div class="p-4">
+            <h1 class="text-[18px] text-white font-semibold mb-1.5">
+              Reflexologia
+            </h1>
+            <p class="text-[12px] line-clamp-3 text-white leading-5">
+              Massagem nos pés com dígito pressão e manobras que aliviam
+              tensões, promovem equilíbrio e bem-estar geral.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
+              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-2.5 hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
+            >
+              <span
+                class="relative z-10 text-[#7FA384] transition-colors duration-400 group-hover:text-white"
+                >Agendar Agora</span
+              >
+              <span
+                class="absolute left-[-10%] top-0 z-0 h-full w-[120%] -skew-x-12 bg-white transition-transform duration-400 cubic-bezier(0.4, 0, 0.2, 1) group-hover:translate-x-full"
+              ></span>
+            </a>
+          </div>
+        </div>
+        <!-- fim do card -->
+      </div>
+      <!-- fim do grid  -->
+    </section>
+
+    <section class="py-16" id="avaliacoes">
+      <i
+        class="bi bi-arrow-down-circle-fill text-[#7FA384] text-4xl flex justify-center pt-10"
+      ></i>
+      <h1
+        class="titulo pt-4 text-[#4F705C] font-semibold flex mb-2 justify-center"
+      >
+        O que estão falando de nós
+      </h1>
+      <p class="text-center paragrafo text-[#7FA384] pb-14 max-w-5xl mx-auto">
+        Veja o que nossos clientes dizem sobre a experiência, o cuidado e a
+        qualidade dos nossos atendimentos podológicos.
+      </p>
+      <div class="relative max-w-6xl mx-auto p-4">
+        <!-- Área do carrossel -->
+        <div
+          id="carousel"
+          class="flex gap-6 p-12 overflow-x-auto scroll-smooth no-scrollbar"
+        >
+          <!-- Cards -->
+          <div
+            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+          >
+            <div class="flex">
+              <img
+                src="imgs/Avaliações/Homem (3).png"
+                alt=""
+                class="rounded-full w-11 h-11"
+              />
+              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
+                Joaquim Mota
+              </h2>
+            </div>
+            <div class="flex">
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+            </div>
+            <p class="leading-5 text-[0.8rem]">
+              Fui muito bem atendido na Thajo. Profissionalismo, cordialidade e
+              destaque especial à Joana. Voltarei e recomendo a todos!
+            </p>
+          </div>
+          <div
+            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+          >
+            <div class="flex">
+              <img
+                src="imgs/Avaliações/person (11).jpg"
+                alt=""
+                class="rounded-full w-11 h-11"
+              />
+              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
+                Fernanda Lopes
+              </h2>
+            </div>
+            <div class="flex">
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+            </div>
+            <p class="leading-5 text-[0.8rem]">
+              Lugar acolhedor e profissionais incríveis. Atendimento impecável,
+              mãos abençoadas. Amo esse espaço e sempre voltarei! ❤️
+            </p>
+          </div>
+          <div
+            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+          >
+            <div class="flex">
+              <img
+                src="imgs/Avaliações/image 17.png"
+                alt=""
+                class="rounded-full w-11 h-11"
+              />
+              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
+                Camila Santos
+              </h2>
+            </div>
+            <div class="flex">
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+            </div>
+            <p class="leading-5 text-[0.8rem]">
+              Profissionais excelentes! Gratidão à Joana pelo cuidado com minhas
+              unhas na gravidez. Super indico e desejo sucesso a todas! ❤️🙌🏻
+            </p>
+          </div>
+          <div
+            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+          >
+            <div class="flex">
+              <img
+                src="imgs/Avaliações/image 18.png"
+                alt=""
+                class="rounded-full w-11 h-11"
+              />
+              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
+                Lindinalva Oliveira da Silva
+              </h2>
+            </div>
+            <div class="flex">
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+            </div>
+            <p class="leading-5 text-[0.8rem]">
+              A Thajo cuida dos meus pés com excelência! Thais e Joana são
+              incríveis. Atendimento impecável. Amo demais e super indico! 😍👏
+            </p>
+          </div>
+          <div
+            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+          >
+            <div class="flex">
+              <img
+                src="imgs/Avaliações/image 19.png"
+                alt=""
+                class="rounded-full w-11 h-11"
+              />
+              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
+                Elis Lima
+              </h2>
+            </div>
+            <div class="flex">
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+            </div>
+            <p class="leading-5 text-[0.8rem]">
+              Sou cliente antiga e super satisfeita! Joana é excelente, já virou
+              uma amiga confidente. Já indiquei várias pessoas! Ótima! 👏❤️
+            </p>
+          </div>
+          <div
+            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+          >
+            <div class="flex">
+              <img
+                src="imgs/Avaliações/Homem (1).png"
+                alt=""
+                class="rounded-full w-11 h-11"
+              />
+              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
+                Mauro Sergio
+              </h2>
+            </div>
+            <div class="flex">
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+            </div>
+            <p class="leading-5 text-[0.8rem]">
+              Nota 10! Espaço limpo, aconchegante e com atendimento impecável.
+              Joana e Thaís são excelentes. Recomendo de olhos fechados! 👏
+            </p>
+          </div>
+          <div
+            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+          >
+            <div class="flex">
+              <img
+                src="imgs/Avaliações/person (10).jpg"
+                alt=""
+                class="rounded-full w-11 h-11"
+              />
+              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
+                Jorge Russier
+              </h2>
+            </div>
+            <div class="flex">
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+            </div>
+            <p class="leading-5 text-[0.8rem]">
+              Atendimento impecável do início ao fim! Fui indicada pela minha
+              filha e amei. Parabéns a toda equipe da Thajo pelo excelente
+              trabalho!
+            </p>
+          </div>
+          <div
+            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+          >
+            <div class="flex">
+              <img
+                src="imgs/Avaliações/image 21.png"
+                alt=""
+                class="rounded-full w-11 h-11"
+              />
+              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
+                Silene Silva
+              </h2>
+            </div>
+            <div class="flex">
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+            </div>
+            <p class="leading-5 text-[0.8rem]">
+              As profissionais são maravilhosas!! Muito atenciosas e cuidadosas.
+              Ambiente agradável e aconchegante!
+            </p>
+          </div>
+          <div
+            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+          >
+            <div class="flex">
+              <img
+                src="imgs/Avaliações/image 22.png"
+                alt=""
+                class="rounded-full w-11 h-11"
+              />
+              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
+                Márcia Campos
+              </h2>
+            </div>
+            <div class="flex">
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+            </div>
+            <p class="leading-5 text-[0.8rem]">
+              Fui atendida pela Joana, super atenciosa e profissional. A clínica
+              é limpa, organizada e tudo esterilizado. Amei o atendimento!
+            </p>
+          </div>
+          <div
+            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+          >
+            <div class="flex">
+              <img
+                src="imgs/Avaliações/Homem (2).png"
+                alt=""
+                class="rounded-full w-11 h-11"
+              />
+              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
+                Flavio Sousa
+              </h2>
+            </div>
+            <div class="flex">
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+            </div>
+            <p class="leading-5 text-[0.8rem]">
+              Atendimento muito bom! Profissionais honestos e atenciosos!
+            </p>
+          </div>
+          <div
+            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+          >
+            <div class="flex">
+              <img
+                src="imgs/Avaliações/image 24.png"
+                alt=""
+                class="rounded-full w-11 h-11"
+              />
+              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
+                Ariadne Pavanelli
+              </h2>
+            </div>
+            <div class="flex">
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+              <i
+                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
+              ></i>
+            </div>
+            <p class="leading-5 text-[0.8rem]">
+              Faço podologia com Joana há 10 anos, viajo 10 km por seu excelente
+              atendimento. Thajo é profissional, comprometida e respeitosa!
+            </p>
+          </div>
+        </div>
+
+        <!-- Botões -->
+        <div class="flex justify-center gap-8 mt-8">
+          <button id="prev" class="text-2xl hover:scale-125 transition">
+            &#8592;
+          </button>
+          <button id="next" class="text-2xl hover:scale-125 transition">
+            &#8594;
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="h-screen mb-20" id="thajo">
+      <i
+        class="bi bi-arrow-down-circle-fill text-[#7FA384] text-4xl flex justify-center pt-10"
+      ></i>
+      <h1
+        class="titulo pt-4 text-[#4F705C] font-semibold flex mb-2 justify-center"
+      >
+        Nosso Local
+      </h1>
+      <p class="text-center paragrafo text-[#4F705C] pb-14 max-w-5xl mx-auto">
+        Nosso espaço foi pensado para oferecer conforto, segurança e bem-estar.
+        Aqui, cada detalhe foi planejado para que você se sinta acolhida(o)
+        desde o primeiro passo.
+      </p>
+
+      <div class="relative overflow-hidden w-full">
+        <div id="carrosselImagens" class="flex gap-4 w-max">
+          <!-- Suas imagens + duplicadas para efeito infinito -->
+          <img
+            src="imgs/Section4/sec4 (1).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (2).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (3).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (4).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (5).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (6).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (7).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (8).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (9).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+
+          <img
+            src="imgs/Section4/sec4 (1).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (2).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (3).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (4).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (5).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (6).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (7).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (8).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (9).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="min-h-screen bg-[#7FA384] flex items-center justify-center py-12 px-4" id="sobre"
+    >
+      <div
+        class="flex flex-col bg-transparent backdrop-blur-md rounded-2xl sdw lg:flex-row items-center p-14 bg justify-center gap-10 w-full max-w-7xl"
+      >
+        <!-- Imagem -->
+        <div class="w-full max-w-[500px]">
+          <img
+            src="imgs/Section5/Sobre.jpeg"
+            class="rounded-2xl shadow-2xl"
+            alt=""
+          />
+        </div>
+
+        <!-- Texto -->
+        <div class="w-full max-w-[696px] text-center lg:text-left">
+          <h1 class="titulo pt-4 text-teal-50 font-semibold mb-2 text-3xl">
+            Sobre Nós
+          </h1>
+          <p class="text-white sobre text-left text-base mt-4">
+            A Thajo Podologia é uma clínica especializada na saúde dos pés,
+            focada na prevenção, diagnóstico e tratamento de alterações que
+            comprometem o bem-estar e a qualidade de vida. Atuamos com
+            excelência, oferecendo cuidados humanizados e personalizados.
+            Contamos com profissionais capacitados, com o Podólogo sendo o
+            especialista responsável por tratar diversas patologias com técnica,
+            empatia e responsabilidade.
+            <br /><br />
+            <strong>Missão:</strong> Promover saúde e bem-estar por meio de um
+            atendimento diferenciado e de qualidade.
+            <br />
+            <strong>Visão:</strong> Ser referência em Podologia na região, com
+            foco em excelência, atualização e cuidado individual.
+            <br />
+            <strong>Valores:</strong> Profissionalismo, ética, respeito,
+            agilidade, empatia e competência. <br /><br />
+            As Podólogas da Thajo são formadas pelo SENAC e possuem mais de 18
+            anos de experiência, sempre buscando atualização constante para
+            oferecer os melhores tratamentos com segurança e inovação.
+          </p>
+
+          <!-- Redes Sociais -->
+          <div class="flex justify-center lg:justify-start gap-4 mt-6">
+            <a href="https://www.facebook.com/thajopodologia">
+              <i
+                class="bi bi-facebook bg-[#7FA384] text-white w-12 h-12 rounded-full border border-white flex items-center justify-center shadow-2xl hover:scale-110 transition-transform duration-300 text-[18px]"
+              ></i>
+            </a>
+            <a href="https://www.instagram.com/thajo_podologia">
+              <i
+                class="bi bi-instagram bg-[#7FA384] text-white w-12 h-12 rounded-full border border-white flex items-center justify-center shadow-2xl hover:scale-110 transition-transform duration-300 text-[18px]"
+              ></i>
+            </a>
+            <a href="https://www.tiktok.com/@thajo_podologia">
+              <i
+                class="bi bi-tiktok bg-[#7FA384] text-white w-12 h-12 rounded-full border border-white flex items-center justify-center shadow-2xl hover:scale-110 transition-transform duration-300 text-[18px]"
+              ></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="min-h-screen px-4 py-10">
+      <i
+        class="bi bi-arrow-down-circle-fill text-[#7FA384] text-4xl flex justify-center pt-10" id="local"
+      ></i>
+
+      <h1
+        class="titulo pt-4 text-[#4F705C] font-semibold mb-1 flex justify-center text-xl md:text-3xl"
+      >
+        Onde nós estamos
+      </h1>
+
+      <p
+        class="text-center paragrafo text-[#7FA384] pb-6 max-w-5xl mx-auto text-sm md:text-base"
+      >
+        Estamos localizados em um espaço de fácil acesso, pronto para receber
+        você com conforto, segurança e cuidado especial desde a sua chegada.
+      </p>
+
+      <div
+        class="flex flex-col md:flex-row justify-center items-center gap-10 max-w-7xl mx-auto"
+      >
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.6285531291924!2d-46.77826372488914!3d-23.61765087876112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5468f824bcdd%3A0xecca5734ced13d41!2sThajo%20Podologia!5e0!3m2!1spt-BR!2sbr!4v1754418292536!5m2!1spt-BR!2sbr"
+          class="w-full max-w-[600px] h-[300px] md:h-[450px] rounded-xl shadow-lg pointer-events-none"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+
+        <div
+          class="flex flex-col justify-center max-w-[340px] text-center md:text-left"
+        >
+          <h1 class="titulo text-[#4F705C] text-2xl font-semibold mb-4">
+            Thajo | Podologia
+          </h1>
+          <p class="text-[#364a3e] text-sm md:text-base leading-relaxed mb-6">
+            <i class="bi bi-geo-alt mr-2 align-text-bottom"></i>
+            Ed. Metropolitan - Estr. São Francisco, 2008<br />
+            9° andar sala 907 - Jardim Wanda<br />
+            Taboão da Serra - SP, 06765-000
+          </p>
+
+          <a
+            href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
+            class="block mx-auto md:mx-0 group relative hover:border-2 hover:border-solid w-[160px] mt-2.5 hover:border-[#7FA384] overflow-hidden rounded-4xl bg-white px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
+          >
+            <span
+              class="relative z-10 text-white transition-colors duration-400 group-hover:text-[#7FA384]"
+              >Agendar Agora</span
+            >
+            <span
+              class="absolute left-[-10%] top-0 z-0 h-full w-[120%] -skew-x-12 bg-[#7FA384] transition-transform duration-400 cubic-bezier(0.4, 0, 0.2, 1) group-hover:translate-x-full pointer-events-none"
+            ></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-[#7FA384] text-white px-6 md:px-16 py-10">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+
+    <!-- Logo -->
+    <div class="flex justify-center md:justify-start">
+      <a href="#inicio"><img src="imgs/logotipos/ThajoBranca.png" alt="Logo Thajo Podologia" class="w-32" /></a>
+    </div>
+
+    <!-- Serviços com hover -->
+    <div class="text-left">
+      <h2 class="font-semibold mb-2">Thajo Podologia</h2>
+      <ul class="space-y-1 text-sm">
+        <li><a href="#inicio" class="inline-block transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]">Início</a></li>
+        <li><a href="#tratamentos" class="inline-block transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]">Tratamentos</a></li>
+        <li><a href="#avaliacoes" class="inline-block transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]">Avaliações</a></li>
+        <li><a href="#thajo" class="inline-block transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]">Thajo</a></li>
+        <li><a href="#sobre" class="inline-block transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]">Sobre nós</a></li>
+        <li><a href="#local" class="inline-block transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]">Onde estamos</a></li>
+      </ul>
+    </div>
+
+    <!-- Redes sociais com hover -->
+    <div class="text-left">
+      <h2 class="font-semibold mb-2">Redes Sociais</h2>
+      <ul class="space-y-2 text-sm">
+        <li>
+          <a href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0" target="_blank" class="flex items-center justify-start gap-2 transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]">
+            <i class="bi bi-whatsapp"></i> 55 (11) 98094-6390
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/thajo_podologia" target="_blank" class="flex items-center justify-start gap-2 transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]">
+            <i class="bi bi-instagram"></i> @thajo_podologia
+          </a>
+        </li>
+        <li>
+          <a href="https://www.tiktok.com/@thajo_podologia" target="_blank" class="flex items-center justify-start gap-2 transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]">
+            <i class="bi bi-tiktok"></i> @thajo_podologia
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/thajopodologia" target="_blank" class="flex items-center justify-start gap-2 transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]">
+            <i class="bi bi-facebook"></i> Thajo Podologia
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Linha inferior -->
+  <div class="border-t border-white mt-8 pt-4 text-center text-xs">
+    Todos os direitos reservados thajo Podologia CNPJ 22.399.137/0001-01 @ 2025 |
+    Desenvolvido por <a href="https://www.instagram.com/matheuslgarcez" target="_blank" class="underline hover:text-[#e2e2e2] hover:-translate-y-0.5 inline-block transition-all duration-300">@matheuslgarcez</a>
+  </div>
+</footer>
+
+
+
+    <script src="./js/script.js"></script>
+
+  </body>
+</html>
