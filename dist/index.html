@@ -92,11 +92,13 @@
         ></span>
       </div>
     </header>
-<section
-  class="w-full min-h-screen bg-cover bg-center bg-no-repeat relative z-0"
-  style="background-image: url(imgs/Section1/imgsec1.png)"
-  id="inicio"
->
+<section class="relative w-full min-h-screen overflow-hidden" id="inicio">
+  <!-- Fundo com efeito parallax -->
+  <div
+    id="parallax-bg"
+    class="absolute inset-0 bg-cover bg-center bg-no-repeat"
+    style="background-image: url('imgs/Section1/imgsec1.png'); will-change: transform;"
+  ></div>
 
       <div
         class="flex items-center xl:pl-24 z-10 justify-items-start min-h-screen px-4"
@@ -215,7 +217,7 @@
             </p>
             <a
               href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
-              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-7 hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
+              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-2.5 md:mt-7 hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
             >
               <span
                 class="relative z-10 text-[#7FA384] transition-colors duration-400 group-hover:text-white"
@@ -271,7 +273,7 @@
             <h1 class="text-[16px] text-white font-semibold mb-1.5 leading-5">
               Cauterização de Verruga Plantar (olho de peixe)
             </h1>
-            <p class="text-[12px] line-clamp-3 text-white leading-5">
+            <p class="text-[12px] line-clamp-2 text-white leading-5">
               Limpeza, remoção da calosidade excessiva e uso de pomada no local
               afetado.
             </p>
@@ -359,7 +361,7 @@
             <h1 class="text-[18px] line-clamp-3 text-white font-semibold mb-1.5">
               laserterapia
             </h1>
-            <p class="text-[12px] text-white leading-5">
+            <p class="text-[12px] line-clamp-3 text-white leading-5">
               O tratamento com laser atua diretamente na unha, combatendo
               fungos, estimulando seu crescimento e tratando fissuras.
             </p>

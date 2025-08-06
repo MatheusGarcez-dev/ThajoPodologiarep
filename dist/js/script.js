@@ -87,3 +87,8 @@ document.addEventListener("DOMContentLoaded", function () {
  carrossel.style.willChange = "transform";
  animar();
 
+  window.addEventListener("scroll", () => {
+    const offset = window.pageYOffset;
+    const bg = document.getElementById("parallax-bg");
+    bg.style.transform = `translateY(${offset * 0.4}px)`;
+  });
