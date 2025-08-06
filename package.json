@@ -2,9 +2,11 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
     "tailwindcss": "^4.1.11"
-  }
-  ,
-    "scripts": {
+  },
+  "scripts": {
     "dev": "npx @tailwindcss/cli -i ./src/tailwind.css -o ./dist/css/styles.css --watch"
-  }  
+  },
+  "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.4.4"
+  }
 }
