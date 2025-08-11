@@ -2,8 +2,8 @@
 <html lang="pt-br" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="imgs/logotipos/Faviconn.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="imgs/logotipos/Faviconn.png" />
     <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="stylesheet"
@@ -12,7 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <title>Thajo Podologia | Oficial</title>
   </head>
-  <body class="m-0 p-0 ">
+  <body class="m-0 p-0">
     <header
       class="absolute top-0 left-1/2 mt-3.5 -translate-x-1/2 max-w-[1280px] w-full rounded-full flex justify-between bg-[#fcfcfc] items-center px-6 py-3 shadow-xl z-50"
     >
@@ -27,13 +27,19 @@
       <div class="flex items-center gap-4">
         <!-- Menu Desktop (sempre visível em telas grandes) -->
         <nav class="hidden md:flex gap-4 text-[#4F705C] text-sm">
-          <a href="#inicio" class="hover:text-[#dedede] transition-all">Início</a>
+          <a href="#inicio" class="hover:text-[#dedede] transition-all"
+            >Início</a
+          >
           <a href="#tratamentos" class="hover:text-[#dedede] transition-all"
             >Tratamentos</a
           >
-          <a href="#avaliacoes" class="hover:text-[#dedede] transition-all">Avaliações</a>
+          <a href="#avaliacoes" class="hover:text-[#dedede] transition-all"
+            >Avaliações</a
+          >
           <a href="#thajo" class="hover:text-[#dedede] transition-all">Thajo</a>
-          <a href="#sobre" class="hover:text-[#dedede] transition-all">Sobre Nós</a>
+          <a href="#sobre" class="hover:text-[#dedede] transition-all"
+            >Sobre Nós</a
+          >
           <a href="#local" class="hover:text-[#dedede] transition-all"
             >Onde Estamos</a
           >
@@ -43,13 +49,19 @@
         <nav
           class="nav-menu fixed top-0 left-0 w-full h-screen bg-white py-10 flex-col items-center gap-6 text-[#4F705C] text-sm hidden opacity-0 transition-all duration-300 z-50"
         >
-          <a href="#inicio" class="hover:text-[#dedede] transition-all item-menu"
+          <a
+            href="#inicio"
+            class="hover:text-[#dedede] transition-all item-menu"
             >Início</a
           >
-          <a href="#tratamentos" class="hover:text-[#dedede] transition-all item-menu"
+          <a
+            href="#tratamentos"
+            class="hover:text-[#dedede] transition-all item-menu"
             >Tratamentos</a
           >
-          <a href="#avaliacoes" class="hover:text-[#dedede] transition-all item-menu"
+          <a
+            href="#avaliacoes"
+            class="hover:text-[#dedede] transition-all item-menu"
             >Avaliações</a
           >
           <a href="#thajo" class="hover:text-[#dedede] transition-all item-menu"
@@ -92,13 +104,16 @@
         ></span>
       </div>
     </header>
-<section class="relative w-full min-h-screen overflow-hidden" id="inicio">
-  <!-- Fundo com efeito parallax -->
-  <div
-    id="parallax-bg"
-    class="absolute inset-0 bg-cover bg-center bg-no-repeat"
-    style="background-image: url('imgs/Section1/imgsec1.png'); will-change: transform;"
-  ></div>
+    <section class="relative w-full min-h-screen overflow-hidden" id="inicio">
+      <!-- Fundo com efeito parallax -->
+      <div
+        id="parallax-bg"
+        class="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style="
+          background-image: url('imgs/Section1/imgsec1.png');
+          will-change: transform;
+        "
+      ></div>
 
       <div
         class="flex items-center xl:pl-24 z-10 justify-items-start min-h-screen px-4"
@@ -129,7 +144,10 @@
       </div>
     </section>
 
-    <section class="bg-[#4F705C] p-[(50px, 7%)] z-10 -mt-8 pt-8 pb-8" id="tratamentos">
+    <section
+      class="bg-[#4F705C] p-[(50px, 7%)] z-10 -mt-8 pt-8 pb-8"
+      id="tratamentos"
+    >
       <i
         class="bi bi-arrow-down-circle-fill text-[#7FA384] text-4xl flex justify-center pt-10"
       ></i>
@@ -148,20 +166,24 @@
       >
         <!-- card -->
         <div
-          class="w-[260px] rounded-4xl bg-[#7FA384] shadow-2xl h-[315px] transition-transform duration-300 hover:-translate-y-1"
+          class="w-[360px] flex flex-col rounded-4xl bg-[#7FA384] shadow-2xl h-[455px] transition-transform duration-300 hover:-translate-y-1"
         >
-          <img class="p-0" src="imgs/Section2/trattradic.png" alt="" />
-          <div class="p-4">
-            <h1 class="text-[18px] text-white font-semibold mb-1.5">
+          <img class="p-0 w-full" src="imgs/Section2/trattradic.png" alt="" />
+          <div class="p-4 flex flex-col flex-1">
+            <h1 class="text-[22px] text-white font-semibold mb-1.5">
               Tratamento Trandicional
             </h1>
-            <p class="text-[12px] line-clamp-3 text-white leading-5">
-              Assepsia,  corte correto da lâminas (unhas), limpeza das pregas
-              periungueais, remoção de calos e calosidades.
+            <p class="text-[12px] text-white leading-5">
+              Assepsia geral dos pés, corte correto das lâminas (unhas), limpeza
+              das pregas periungueais, remoção de calos e calosidades.
+            </p>
+
+            <p class="text-[12px] text-white font-medium pt-2 leading-5">
+              Tempo médio de 1 hora.
             </p>
             <a
               href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
-              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-2.5 hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
+              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-auto hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
             >
               <span
                 class="relative z-10 text-[#7FA384] transition-colors duration-400 group-hover:text-white"
@@ -176,20 +198,24 @@
         <!-- fim do card -->
         <!-- card -->
         <div
-          class="w-[260px] rounded-4xl bg-[#7FA384] shadow-2xl leading-5 h-[315px] transition-transform duration-300 hover:-translate-y-1"
+          class="w-[360px] flex flex-col rounded-4xl bg-[#7FA384] shadow-2xl h-[455px] transition-transform duration-300 hover:-translate-y-1"
         >
-          <img class="p-0" src="imgs/Section2/bebe.png" alt="" />
-          <div class="p-4">
-            <h1 class="text-[16px] text-white font-semibold mb-1.5">
+          <img class="p-0" src="imgs/Section2/tratinfantil.png" alt="" />
+          <div class="p-4 flex flex-col flex-1">
+            <h1 class="text-[22px] text-white font-semibold mb-1.5">
               Tratamento Infantil
             </h1>
-            <p class="text-[12px] line-clamp-3 text-white leading-5">
-              Higienização, corte correto das unhas, limpeza das pregas
-              periungueais, cuidado especial e personalizado para as crianças.
+            <p class="text-[12px] text-white leading-5">
+              Higienização, corte correto das lâminas (unhas), limpeza das
+              pregas periungueais, cuidado especial e personalizado para as
+              crianças.
+            </p>
+            <p class="text-[12px] text-white font-medium pt-2 leading-5">
+              Tempo médio de 30 minutos.
             </p>
             <a
               href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
-              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-4 hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
+              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-auto hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
             >
               <span
                 class="relative z-10 text-[#7FA384] transition-colors duration-400 group-hover:text-white"
@@ -204,20 +230,25 @@
         <!-- fim do card -->
         <!-- card -->
         <div
-          class="w-[260px] rounded-4xl bg-[#7FA384] shadow-2xl h-[315px] transition-transform duration-300 hover:-translate-y-1"
+          class="w-[360px] flex flex-col rounded-4xl bg-[#7FA384] shadow-2xl h-[455px] transition-transform duration-300 hover:-translate-y-1"
         >
           <img class="p-0" src="imgs/Section2/infec.png" alt="" />
-          <div class="p-4">
-            <h1 class="text-[18px] text-white font-semibold mb-1.5">
+          <div class="p-4 flex flex-col flex-1">
+            <h1 class="text-[22px] text-white font-semibold mb-1.5">
               Tratamento de Infecção
             </h1>
-            <p class="text-[12px] line-clamp-3 text-white leading-5">
-              Assepsia, remoção de espícula, aplicação de auto freqüência e
-              curativo oclusivo.
+            <p class="text-[12px] text-white leading-5">
+              Higienização do local, aplicação de anestésico tópico e emoliente
+              para facilitar a remoção da espícula. Após a remoção, utilizamos
+              antisséptico e anti-inflamatório, finalizando com um curativo
+              oclusivo. Os retornos estão inclusos até a cicatrização.
+            </p>
+            <p class="text-[12px] text-white font-medium pt-2 leading-5">
+              Tempo médio de 30 minutos.
             </p>
             <a
               href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
-              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-2.5 md:mt-7 hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
+              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-auto hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
             >
               <span
                 class="relative z-10 text-[#7FA384] transition-colors duration-400 group-hover:text-white"
@@ -238,20 +269,26 @@
       >
         <!-- card -->
         <div
-          class="w-[260px] rounded-4xl bg-[#7FA384] shadow-2xl h-[315px] transition-transform duration-300 hover:-translate-y-1"
+          class="w-[360px] flex flex-col rounded-4xl bg-[#7FA384] shadow-2xl h-[455px] transition-transform duration-300 hover:-translate-y-1"
         >
           <img class="p-0" src="imgs/Section2/curativo.png" alt="" />
-          <div class="p-4">
-            <h1 class="text-[18px] text-white font-semibold mb-1.5">
+          <div class="p-4 flex flex-col flex-1">
+            <h1 class="text-[22px] text-white font-semibold mb-1.5">
               Curativo
             </h1>
-            <p class="text-[12px] line-clamp-3 text-white leading-5">
-              Limpeza com soro, aplicação de pomada se preciso, evitando
-              contaminações, aliviando a dor e ajudando na cicatrização.
+            <p class="text-[12px] text-white leading-5">
+              Higienização, uso de soro fisiológico e medicamento tópico se
+              necessário, afim de prevenir uma contaminação, aliviando a dor e
+              facilitando a cicatrização.
             </p>
+
+            <p class="text-[12px] text-white font-medium pt-2 leading-5">
+              Tempo médio de 30 minutos.
+            </p>
+
             <a
               href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
-              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-2.5 hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
+              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-auto hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
             >
               <span
                 class="relative z-10 text-[#7FA384] transition-colors duration-400 group-hover:text-white"
@@ -266,20 +303,23 @@
         <!-- fim do card -->
         <!-- card -->
         <div
-          class="w-[260px] rounded-4xl bg-[#7FA384] shadow-2xl h-[315px] transition-transform duration-300 hover:-translate-y-1"
+          class="w-[360px] flex flex-col rounded-4xl bg-[#7FA384] shadow-2xl h-[455px] transition-transform duration-300 hover:-translate-y-1"
         >
           <img class="p-0" src="imgs/Section2/verruga.png" alt="" />
-          <div class="p-4">
-            <h1 class="text-[16px] text-white font-semibold mb-1.5 leading-5">
+          <div class="p-4 flex flex-col flex-1">
+            <h1 class="text-[22px] text-white font-semibold mb-1.5 leading-5">
               Cauterização de Verruga Plantar (olho de peixe)
             </h1>
-            <p class="text-[12px] line-clamp-2 text-white leading-5">
-              Limpeza, remoção da calosidade excessiva e uso de pomada no local
-              afetado.
+            <p class="text-[12px] text-white leading-5">
+              Higienização, desbaste do excesso de calosidade do local afetado e
+uso de medicamento tópico.
+            </p>
+            <p class="text-[12px] text-white font-medium pt-2 leading-5">
+              Tempo médio de 20 minutos.
             </p>
             <a
               href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
-              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-4 hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
+              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-auto hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
             >
               <span
                 class="relative z-10 text-[#7FA384] transition-colors duration-400 group-hover:text-white"
@@ -294,20 +334,24 @@
         <!-- fim do card -->
         <!-- card -->
         <div
-          class="w-[260px] rounded-4xl bg-[#7FA384] shadow-2xl h-[315px] transition-transform duration-300 hover:-translate-y-1"
+          class="w-[360px] flex flex-col rounded-4xl bg-[#7FA384] shadow-2xl h-[455px] transition-transform duration-300 hover:-translate-y-1"
         >
           <img class="p-0" src="imgs/Section2/hidraparaf.png" alt="" />
-          <div class="p-4">
-            <h1 class="text-[18px] text-white font-semibold mb-1.5">
+          <div class="p-4 flex flex-col flex-1">
+            <h1 class="text-[22px] text-white font-semibold mb-1.5">
               Hidratação com Parafina
             </h1>
-            <p class="text-[12px] line-clamp-3 text-white leading-5">
-              Esfoliação dos pés com hidratação intensa por parafina e bota
-              térmica, que nutrem profundamente e evitam rachaduras.
+            <p class="text-[12px] text-white leading-5">
+              Higienização, esfoliação e aplicação de parafina. Para potencializar,
+utilizamos uma bota térmica, promovendo nutrição e deixando os
+pés livres de fissuras e ressecamento.
+            </p>
+            <p class="text-[12px] text-white font-medium pt-2 leading-5">
+              Tempo médio de 20 minutos.
             </p>
             <a
               href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
-              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-2.5 hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
+              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-auto hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
             >
               <span
                 class="relative z-10 text-[#7FA384] transition-colors duration-400 group-hover:text-white"
@@ -328,18 +372,24 @@
       >
         <!-- card -->
         <div
-          class="w-[260px] rounded-4xl bg-[#7FA384] shadow-2xl h-[315px] transition-transform duration-300 hover:-translate-y-1"
+          class="w-[360px] flex flex-col rounded-4xl bg-[#7FA384] shadow-2xl h-[455px] transition-transform duration-300 hover:-translate-y-1"
         >
           <img class="p-0" src="imgs/Section2/ortose.png" alt="" />
-          <div class="p-4">
-            <h1 class="text-[18px] text-white font-semibold mb-1.5">Órtese</h1>
-            <p class="text-[12px] line-clamp-3 text-white leading-5">
-              A órtese é um dispositivo fixado à unha que promove tração
-              mecânica, corrigindo deformações e aliviando dores.
+          <div class="p-4 flex flex-col flex-1">
+            <h1 class="text-[22px] text-white font-semibold mb-1.5">Órtese</h1>
+            <p class="text-[12px] text-white leading-5">
+             A Órtese é um dispositivo que se fixa à lâmina (unha) e apresenta
+eficiente capacidade de tração mecânica sendo inegavelmente a
+melhor opção para o tratamento corretivo de unhas deformadas. A
+aplicação de órtese faz com que a unha volte ao seu formato normal
+e, consequentemente há um alívio de dor.
+            </p>
+            <p class="text-[12px] text-white font-medium pt-2 leading-5">
+              Tempo médio de 30 minutos.
             </p>
             <a
               href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
-              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-2.5 hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
+              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-auto hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
             >
               <span
                 class="relative z-10 text-[#7FA384] transition-colors duration-400 group-hover:text-white"
@@ -354,20 +404,27 @@
         <!-- fim do card -->
         <!-- card -->
         <div
-          class="w-[260px] rounded-4xl bg-[#7FA384] shadow-2xl h-[315px] transition-transform duration-300 hover:-translate-y-1"
+          class="w-[360px] flex flex-col rounded-4xl bg-[#7FA384] shadow-2xl h-[455px] transition-transform duration-300 hover:-translate-y-1"
         >
           <img class="p-0" src="imgs/Section2/laserterap.png" alt="" />
-          <div class="p-4">
-            <h1 class="text-[18px] line-clamp-3 text-white font-semibold mb-1.5">
+          <div class="p-4 flex flex-col flex-1">
+            <h1
+              class="text-[22px] text-white font-semibold mb-1.5"
+            >
               laserterapia
             </h1>
-            <p class="text-[12px] line-clamp-3 text-white leading-5">
-              O tratamento com laser atua diretamente na unha, combatendo
-              fungos, estimulando seu crescimento e tratando fissuras.
+            <p class="text-[12px] text-white leading-5">
+             O laser é uma terapia que trata a onicomicose (micose de unha) de
+forma indolor e sem efeitos colaterais. Ele é capaz de inativar os
+fungos e junto acelerar o crescimento da unha. O laser pode ser
+usado também em fissuras abertas e micoses Interdigitais (frieiras).
+            </p>
+            <p class="text-[12px] text-white font-medium pt-2 leading-5">
+              Tempo médio de 30 minutos.
             </p>
             <a
               href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
-              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-2.5 hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
+              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-auto hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
             >
               <span
                 class="relative z-10 text-[#7FA384] transition-colors duration-400 group-hover:text-white"
@@ -382,20 +439,26 @@
         <!-- fim do card -->
         <!-- card -->
         <div
-          class="w-[260px] rounded-4xl bg-[#7FA384] shadow-2xl h-[315px] transition-transform duration-300 hover:-translate-y-1"
+          class="w-[360px] flex flex-col rounded-4xl bg-[#7FA384] shadow-2xl h-[455px] transition-transform duration-300 hover:-translate-y-1"
         >
           <img class="p-0" src="imgs/Section2/reflexo.png" alt="" />
-          <div class="p-4">
-            <h1 class="text-[18px] text-white font-semibold mb-1.5">
+          <div class="p-4 flex flex-col flex-1">
+            <h1 class="text-[22px] text-white font-semibold mb-1.5">
               Reflexologia
             </h1>
-            <p class="text-[12px] line-clamp-3 text-white leading-5">
-              Massagem nos pés com dígito pressão e manobras que aliviam
-              tensões, promovem equilíbrio e bem-estar geral.
+            <p class="text-[12px] text-white leading-5">
+              Massagem relaxante para os pés, que proporciona bem-estar e a
+regularização do desequilíbrio. O procedimento é realizado através
+de dígito pressão e manobras estimulantes, com a aplicação da
+cromoterapia para potencializar os benefícios.
+
+            </p>
+            <p class="text-[12px] text-white font-medium pt-2 leading-5">
+              Tempo médio de 30 minutos.
             </p>
             <a
               href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
-              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-2.5 hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
+              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-auto hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
             >
               <span
                 class="relative z-10 text-[#7FA384] transition-colors duration-400 group-hover:text-white"
@@ -431,390 +494,631 @@
           id="carousel"
           class="flex gap-6 p-12 overflow-x-auto scroll-smooth no-scrollbar"
         >
-          <!-- Cards -->
+          <!-- Card -->
           <div
-            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+            class="min-w-[380px] bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
           >
-            <div class="flex">
+            <div class="flex items-center mb-3">
               <img
-                src="imgs/Avaliações/Homem (3).png"
-                alt=""
-                class="rounded-full w-11 h-11"
+                src="imgs/Avaliações/image 22.png"
+                alt="Márcia Campos"
+                class="rounded-full w-12 h-12 object-cover shadow-sm"
               />
-              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
-                Joaquim Mota
-              </h2>
+              <div class="ml-3">
+                <h2 class="font-semibold text-gray-800 text-sm">
+                  Márcia Campos
+                </h2>
+                <div class="flex text-yellow-400 text-sm">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+              </div>
             </div>
-            <div class="flex">
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-            </div>
-            <p class="leading-5 text-[0.8rem]">
-              Fui muito bem atendido na Thajo. Profissionalismo, cordialidade e
-              destaque especial à Joana. Voltarei e recomendo a todos!
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Fui atendida pela Joana, super atenciosa e profissional. A clínica
+              é limpa, organizada e tudo esterilizado. Amei o atendimento!
             </p>
           </div>
+
+          <!-- Card -->
           <div
-            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+            class="min-w-[380px] bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
           >
-            <div class="flex">
+            <div class="flex items-center mb-3">
               <img
-                src="imgs/Avaliações/person (11).jpg"
-                alt=""
-                class="rounded-full w-11 h-11"
+                src="imgs/Avaliações/Homem (2).png"
+                alt="Flavio Sousa"
+                class="rounded-full w-12 h-12 object-cover shadow-sm"
               />
-              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
-                Fernanda Lopes
-              </h2>
+              <div class="ml-3">
+                <h2 class="font-semibold text-gray-800 text-sm">
+                  Flavio Sousa
+                </h2>
+                <div class="flex text-yellow-400 text-sm">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+              </div>
             </div>
-            <div class="flex">
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-            </div>
-            <p class="leading-5 text-[0.8rem]">
-              Lugar acolhedor e profissionais incríveis. Atendimento impecável,
-              mãos abençoadas. Amo esse espaço e sempre voltarei! ❤️
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Atendimento muito bom! Profissionais honestos e atenciosos!
             </p>
           </div>
+
+          <!-- Card -->
           <div
-            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+            class="min-w-[380px] bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
           >
-            <div class="flex">
+            <div class="flex items-center mb-3">
               <img
-                src="imgs/Avaliações/image 17.png"
-                alt=""
-                class="rounded-full w-11 h-11"
+                src="imgs/Avaliações/image 24.png"
+                alt="Ariadne Pavanelli"
+                class="rounded-full w-12 h-12 object-cover shadow-sm"
               />
-              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
-                Camila Santos
-              </h2>
+              <div class="ml-3">
+                <h2 class="font-semibold text-gray-800 text-sm">
+                  Ariadne Pavanelli
+                </h2>
+                <div class="flex text-yellow-400 text-sm">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+              </div>
             </div>
-            <div class="flex">
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-            </div>
-            <p class="leading-5 text-[0.8rem]">
-              Profissionais excelentes! Gratidão à Joana pelo cuidado com minhas
-              unhas na gravidez. Super indico e desejo sucesso a todas! ❤️🙌🏻
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Faço podologia com Joana há 10 anos, viajo 10 km por seu excelente
+              atendimento. Thajo é profissional, comprometida e respeitosa!
             </p>
           </div>
+          <!-- Card 1 -->
           <div
-            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+            class="w-[380px] flex-shrink-0 bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
           >
-            <div class="flex">
+            <div class="flex items-center mb-3">
               <img
                 src="imgs/Avaliações/image 18.png"
                 alt=""
                 class="rounded-full w-11 h-11"
               />
-              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
+              <h2 class="font-medium text-base ml-3">
                 Lindinalva Oliveira da Silva
               </h2>
             </div>
-            <div class="flex">
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
+            <div class="flex mb-3">
+              <i class="bi bi-star-fill text-amber-400 mr-1"></i>
+              <i class="bi bi-star-fill text-amber-400 mr-1"></i>
+              <i class="bi bi-star-fill text-amber-400 mr-1"></i>
+              <i class="bi bi-star-fill text-amber-400 mr-1"></i>
+              <i class="bi bi-star-fill text-amber-400"></i>
             </div>
-            <p class="leading-5 text-[0.8rem]">
+            <p class="text-sm leading-5 text-gray-700">
               A Thajo cuida dos meus pés com excelência! Thais e Joana são
               incríveis. Atendimento impecável. Amo demais e super indico! 😍👏
             </p>
           </div>
+
+          <!-- Card 2 -->
           <div
-            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+            class="w-[380px] flex-shrink-0 bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
           >
-            <div class="flex">
+            <div class="flex items-center mb-3">
               <img
                 src="imgs/Avaliações/image 19.png"
                 alt=""
                 class="rounded-full w-11 h-11"
               />
-              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
-                Elis Lima
-              </h2>
+              <h2 class="font-medium text-base ml-3">Elis Lima</h2>
             </div>
-            <div class="flex">
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
+            <div class="flex mb-3">
+              <i class="bi bi-star-fill text-amber-400 mr-1"></i>
+              <i class="bi bi-star-fill text-amber-400 mr-1"></i>
+              <i class="bi bi-star-fill text-amber-400 mr-1"></i>
+              <i class="bi bi-star-fill text-amber-400 mr-1"></i>
+              <i class="bi bi-star-fill text-amber-400"></i>
             </div>
-            <p class="leading-5 text-[0.8rem]">
+            <p class="text-sm leading-5 text-gray-700">
               Sou cliente antiga e super satisfeita! Joana é excelente, já virou
               uma amiga confidente. Já indiquei várias pessoas! Ótima! 👏❤️
             </p>
           </div>
+
+          <!-- Card 3 -->
           <div
-            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+            class="w-[380px] flex-shrink-0 bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
           >
-            <div class="flex">
+            <div class="flex items-center mb-3">
               <img
                 src="imgs/Avaliações/Homem (1).png"
                 alt=""
                 class="rounded-full w-11 h-11"
               />
-              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
-                Mauro Sergio
-              </h2>
+              <h2 class="font-medium text-base ml-3">Mauro Sergio</h2>
             </div>
-            <div class="flex">
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
+            <div class="flex mb-3">
+              <i class="bi bi-star-fill text-amber-400 mr-1"></i>
+              <i class="bi bi-star-fill text-amber-400 mr-1"></i>
+              <i class="bi bi-star-fill text-amber-400 mr-1"></i>
+              <i class="bi bi-star-fill text-amber-400 mr-1"></i>
+              <i class="bi bi-star-fill text-amber-400"></i>
             </div>
-            <p class="leading-5 text-[0.8rem]">
-              Nota 10! Espaço limpo, aconchegante e com atendimento impecável.
-              Joana e Thaís são excelentes. Recomendo de olhos fechados! 👏
+            <p class="text-sm leading-5 text-gray-700">
+              Nota 10! Ambiente aconchegante e super limpo. As profissionais
+              Joana e Thaís são excelentes. Super recomendo!
             </p>
           </div>
+
+          <!-- Card Jorge Russier -->
           <div
-            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+            class="w-[380px] flex-shrink-0 bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
           >
-            <div class="flex">
+            <div class="flex items-center mb-3">
               <img
                 src="imgs/Avaliações/person (10).jpg"
                 alt=""
-                class="rounded-full w-11 h-11"
+                class="rounded-full w-11 h-11 mr-3"
               />
-              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
-                Jorge Russier
-              </h2>
+              <div>
+                <h2 class="font-medium text-[1rem]">Jorge Russier</h2>
+                <div class="flex">
+                  <i class="bi bi-star-fill text-amber-300"></i>
+                  <i class="bi bi-star-fill text-amber-300"></i>
+                  <i class="bi bi-star-fill text-amber-300"></i>
+                  <i class="bi bi-star-fill text-amber-300"></i>
+                  <i class="bi bi-star-fill text-amber-300"></i>
+                </div>
+              </div>
             </div>
-            <div class="flex">
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-            </div>
-            <p class="leading-5 text-[0.8rem]">
+            <p class="text-sm text-gray-700 leading-5">
               Atendimento impecável do início ao fim! Fui indicada pela minha
               filha e amei. Parabéns a toda equipe da Thajo pelo excelente
               trabalho!
             </p>
           </div>
+
+          <!-- Card Silene Silva -->
           <div
-            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+            class="w-[380px] flex-shrink-0 bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
           >
-            <div class="flex">
+            <div class="flex items-center mb-3">
               <img
                 src="imgs/Avaliações/image 21.png"
                 alt=""
-                class="rounded-full w-11 h-11"
+                class="rounded-full w-11 h-11 mr-3"
               />
-              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
-                Silene Silva
-              </h2>
+              <div>
+                <h2 class="font-medium text-gray-700 text-[1rem]">
+                  Silene Silva
+                </h2>
+                <div class="flex">
+                  <i class="bi bi-star-fill text-amber-300"></i>
+                  <i class="bi bi-star-fill text-amber-300"></i>
+                  <i class="bi bi-star-fill text-amber-300"></i>
+                  <i class="bi bi-star-fill text-amber-300"></i>
+                  <i class="bi bi-star-fill text-amber-300"></i>
+                </div>
+              </div>
             </div>
-            <div class="flex">
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-            </div>
-            <p class="leading-5 text-[0.8rem]">
+            <p class="text-sm leading-5">
               As profissionais são maravilhosas!! Muito atenciosas e cuidadosas.
               Ambiente agradável e aconchegante!
             </p>
           </div>
+
+          <!-- Card Márcia Campos -->
           <div
-            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+            class="w-[380px] flex-shrink-0 bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
           >
-            <div class="flex">
+            <div class="flex items-center mb-3">
               <img
-                src="imgs/Avaliações/image 22.png"
+                src="imgs/Avaliações/barbara.png"
                 alt=""
-                class="rounded-full w-11 h-11"
+                class="rounded-full w-11 h-11 mr-3"
               />
-              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
-                Márcia Campos
+              <div>
+                <h2 class="font-medium text-gray-800 text-[1rem]">
+                  Barbara Bacelar
+                </h2>
+                <div class="flex">
+                  <i class="bi bi-star-fill text-amber-300"></i>
+                  <i class="bi bi-star-fill text-amber-300"></i>
+                  <i class="bi bi-star-fill text-amber-300"></i>
+                  <i class="bi bi-star-fill text-amber-300"></i>
+                  <i class="bi bi-star-fill text-amber-300"></i>
+                </div>
+              </div>
+            </div>
+            <p class="text-sm leading-5 text-gray-700">
+              Levei meu filho de 4 meses para tratar inflamação na unha e apesar
+              do tratamento ter sido difícil, o resultado foi ótimo, o
+              atendimento da podóloga Joana foi incrível! Super paciente,
+              atenciosa e dedicada em resolver o problema da unha. Só tenho
+              elogios e gratidão!
+            </p>
+          </div>
+
+          <div
+            class="w-[380px] flex-shrink-0 bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
+          >
+            <!-- Cabeçalho -->
+            <div class="flex items-center gap-3">
+              <img
+                src="imgs/Avaliações/Homem (3).png"
+                alt="Foto de Flavio Sousa"
+                class="rounded-full w-11 h-11 object-cover border border-gray-300"
+              />
+              <h2 class="font-semibold text-gray-800 text-sm sm:text-base">
+                Joaquim mota
               </h2>
             </div>
-            <div class="flex">
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
+
+            <!-- Estrelas -->
+            <div class="flex text-amber-400 text-sm">
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill"></i>
             </div>
-            <p class="leading-5 text-[0.8rem]">
-              Fui atendida pela Joana, super atenciosa e profissional. A clínica
-              é limpa, organizada e tudo esterilizado. Amei o atendimento!
+
+            <!-- Avaliação -->
+            <p class="leading-snug text-xs sm:text-sm text-gray-700">
+              Gostaria de registrar minha satisfação com o excelente atendimento
+              que recebi na clínica Thajo podologia. Desde a chegada, fui muito
+              bem recepcionado pelas funcionárias, que demonstraram cordialidade
+              e profissionalismo.
+            </p>
+          </div>
+
+          <div
+            class="w-[380px] flex-shrink-0 bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
+          >
+            <!-- Cabeçalho -->
+            <div class="flex items-center gap-3">
+              <img
+                src="imgs/Avaliações/image 17.png"
+                alt="Foto de Ariadne Pavanelli"
+                class="rounded-full w-11 h-11 object-cover border border-gray-300"
+              />
+              <h2 class="font-semibold text-gray-800 text-sm sm:text-base">
+                Camila Santos
+              </h2>
+            </div>
+
+            <!-- Estrelas -->
+            <div class="flex text-amber-400 text-sm">
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+
+            <!-- Avaliação -->
+            <p class="leading-snug text-xs sm:text-sm text-gray-700">
+              São ótimas profissionais, e que realmente entrega o que promete
+              para os clientes. Meu carinho em especial para a Joana, que me
+              ajudou durante 1 mês com as unhas escravadas devido aos meus
+              hormônios alterados na grávida, obrigada e desejo muito sucesso
+              para todas as meninas!! 🙌🏻❤️ …
             </p>
           </div>
           <div
-            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+            class="w-[380px] flex-shrink-0 bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
           >
-            <div class="flex">
+            <!-- Cabeçalho -->
+            <div class="flex items-center gap-3">
               <img
-                src="imgs/Avaliações/Homem (2).png"
-                alt=""
-                class="rounded-full w-11 h-11"
+                src="imgs/Avaliações/Leia.png"
+                alt="Foto de Ariadne Pavanelli"
+                class="rounded-full w-11 h-11 object-cover border border-gray-300"
               />
-              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
-                Flavio Sousa
+              <h2 class="font-semibold text-gray-800 text-sm sm:text-base">
+                Leia.S
               </h2>
             </div>
-            <div class="flex">
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
+
+            <!-- Estrelas -->
+            <div class="flex text-amber-400 text-sm">
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill"></i>
             </div>
-            <p class="leading-5 text-[0.8rem]">
-              Atendimento muito bom! Profissionais honestos e atenciosos!
+
+            <!-- Avaliação -->
+            <p class="leading-snug text-xs sm:text-sm text-gray-700">
+              Super indico a thajo, atendimento maravilhoso, o ambiente é
+              aconchegante e a limpeza está ótima. Profissionais maravilhosas.
+              Minha mãe passa com a profissional Joana e não temos o que
+              reclamar. Ela tem muita paciência com pessoas idosas. O endereço é
+              de fácil acesso.
+            </p>
+          </div>
+
+          <div
+            class="w-[380px] flex-shrink-0 bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
+          >
+            <!-- Cabeçalho -->
+            <div class="flex items-center gap-3">
+              <img
+                src="imgs/Avaliações/Alessandra.png"
+                alt="Foto de Ariadne Pavanelli"
+                class="rounded-full w-11 h-11 object-cover border border-gray-300"
+              />
+              <h2 class="font-semibold text-gray-800 text-sm sm:text-base">
+                Alessandra Marcante
+              </h2>
+            </div>
+
+            <!-- Estrelas -->
+            <div class="flex text-amber-400 text-sm">
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+
+            <!-- Avaliação -->
+            <p class="leading-snug text-xs sm:text-sm text-gray-700">
+              Thaís e Joana além de serem profissionais, muito competente são
+              extremamente acolhedoras! sempre fui recebida com muito carinho.
+              Faço tratamento com a Thaís ha mais de um ano e estou muito feliz
+              com os resultado!
             </p>
           </div>
           <div
-            class="min-w-96 h-[170px] bg-[#e0e0e0] rounded-2xl p-6 neumorphic-shadow"
+            class="w-[380px] flex-shrink-0 bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
           >
-            <div class="flex">
+            <!-- Cabeçalho -->
+            <div class="flex items-center gap-3">
               <img
-                src="imgs/Avaliações/image 24.png"
-                alt=""
-                class="rounded-full w-11 h-11"
+                src="imgs/Avaliações/camila.png"
+                alt="Foto de Ariadne Pavanelli"
+                class="rounded-full w-11 h-11 object-cover border border-gray-300"
               />
-              <h2 class="items-center font-medium text-[1rem] pt-2 ml-1.5">
-                Ariadne Pavanelli
+              <h2 class="font-semibold text-gray-800 text-sm sm:text-base">
+                Camila Nobrega Dias
               </h2>
             </div>
-            <div class="flex">
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
-              <i
-                class="bi bi-star-fill text-amber-300 w-2.5 h-2.5 mr-2 mt-1 mb-3"
-              ></i>
+
+            <!-- Estrelas -->
+            <div class="flex text-amber-400 text-sm">
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill"></i>
             </div>
-            <p class="leading-5 text-[0.8rem]">
-              Faço podologia com Joana há 10 anos, viajo 10 km por seu excelente
-              atendimento. Thajo é profissional, comprometida e respeitosa!
+
+            <!-- Avaliação -->
+            <p class="leading-snug text-xs sm:text-sm text-gray-700">
+              Super indico a thajo, atendimento maravilhoso, o ambiente é
+              aconchegante e a limpeza está ótima. Profissionais maravilhosas.
+              Minha mãe passa com a profissional Joana e não temos o que
+              reclamar. Ela tem muita paciência com pessoas idosas. O endereço é
+              de fácil acesso.
+            </p>
+          </div>
+          <div
+            class="w-[380px] flex-shrink-0 bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
+          >
+            <!-- Cabeçalho -->
+            <div class="flex items-center gap-3">
+              <img
+                src="imgs/Avaliações/elaine.png"
+                alt="Foto de Ariadne Pavanelli"
+                class="rounded-full w-11 h-11 object-cover border border-gray-300"
+              />
+              <h2 class="font-semibold text-gray-800 text-sm sm:text-base">
+                Elaine Cristina Fernandes Avelar
+              </h2>
+            </div>
+
+            <!-- Estrelas -->
+            <div class="flex text-amber-400 text-sm">
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+
+            <!-- Avaliação -->
+            <p class="leading-snug text-xs sm:text-sm text-gray-700">
+              Maravilhosa a thajos, sempre salvando a minha vida com excelência
+              e profissionalismo. Tenho unhas super encravadas uso podologia
+              desde 1995, portanto conheço bem um bom podólogo e a thajos cuida
+              dos meus pé desde 2018 Simplesmente amo os serviços de vcs e super
+              indico
+            </p>
+          </div>
+          <div
+            class="w-[380px] flex-shrink-0 bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
+          >
+            <!-- Cabeçalho -->
+            <div class="flex items-center gap-3">
+              <img
+                src="imgs/Avaliações/cristina.png"
+                alt="Foto de Ariadne Pavanelli"
+                class="rounded-full w-11 h-11 object-cover border border-gray-300"
+              />
+              <h2 class="font-semibold text-gray-800 text-sm sm:text-base">
+                Cristina Teniz
+              </h2>
+            </div>
+
+            <!-- Estrelas -->
+            <div class="flex text-amber-400 text-sm">
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+
+            <!-- Avaliação -->
+            <p class="leading-snug text-xs sm:text-sm text-gray-700">
+              Um trabalho excelente, atendimento nota Mil
+            </p>
+          </div>
+          <div
+            class="w-[380px] flex-shrink-0 bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
+          >
+            <!-- Cabeçalho -->
+            <div class="flex items-center gap-3">
+              <img
+                src="imgs/Avaliações/jessica.png"
+                alt="Foto de Ariadne Pavanelli"
+                class="rounded-full w-11 h-11 object-cover border border-gray-300"
+              />
+              <h2 class="font-semibold text-gray-800 text-sm sm:text-base">
+                Jessica Oliveira
+              </h2>
+            </div>
+
+            <!-- Estrelas -->
+            <div class="flex text-amber-400 text-sm">
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+
+            <!-- Avaliação -->
+            <p class="leading-snug text-xs sm:text-sm text-gray-700">
+              As meninas são as melhores profissionais que existem em podologia.
+              Sou cliente fidelizada e indico sempre!
+            </p>
+          </div>
+          <div
+            class="w-[380px] flex-shrink-0 bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
+          >
+            <!-- Cabeçalho -->
+            <div class="flex items-center gap-3">
+              <img
+                src="imgs/Avaliações/anna.png"
+                alt="Foto de Ariadne Pavanelli"
+                class="rounded-full w-11 h-11 object-cover border border-gray-300"
+              />
+              <h2 class="font-semibold text-gray-800 text-sm sm:text-base">
+                Anna Russier
+              </h2>
+            </div>
+
+            <!-- Estrelas -->
+            <div class="flex text-amber-400 text-sm">
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+
+            <!-- Avaliação -->
+            <p class="leading-snug text-xs sm:text-sm text-gray-700">
+              Lugar maravilhoso! Sou sempre muito bem atendida e as meninas são
+              super profissionais, recomendo muito!
+            </p>
+          </div>
+          <div
+            class="w-[380px] flex-shrink-0 bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
+          >
+            <!-- Cabeçalho -->
+            <div class="flex items-center gap-3">
+              <img
+                src="imgs/Avaliações/moura.png"
+                alt="Foto de Ariadne Pavanelli"
+                class="rounded-full w-11 h-11 object-cover border border-gray-300"
+              />
+              <h2 class="font-semibold text-gray-800 text-sm sm:text-base">
+                Moura Joel
+              </h2>
+            </div>
+
+            <!-- Estrelas -->
+            <div class="flex text-amber-400 text-sm">
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+
+            <!-- Avaliação -->
+            <p class="leading-snug text-xs sm:text-sm text-gray-700">
+              Ótimo atendimento E excelentes profissionais
+            </p>
+          </div>
+          <div
+            class="w-[380px] flex-shrink-0 bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
+          >
+            <!-- Cabeçalho -->
+            <div class="flex items-center gap-3">
+              <img
+                src="imgs/Avaliações/deisee.png"
+                alt="Foto de Ariadne Pavanelli"
+                class="rounded-full w-11 h-11 object-cover border border-gray-300"
+              />
+              <h2 class="font-semibold text-gray-800 text-sm sm:text-base">
+                Deise Hoffmann
+              </h2>
+            </div>
+
+            <!-- Estrelas -->
+            <div class="flex text-amber-400 text-sm">
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+
+            <!-- Avaliação -->
+            <p class="leading-snug text-xs sm:text-sm text-gray-700">
+              Gosto muito do atendimento da podóloga Thaís. Atenciosa, simpática
+              e excelente profissional. Estou há 3 anos passando com a Thaís e
+              irei continuar!! Está de parabéns!!👏👏 …
+            </p>
+          </div>
+          <div
+            class="w-[380px] flex-shrink-0 bg-white rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
+          >
+            <!-- Cabeçalho -->
+            <div class="flex items-center gap-3">
+              <img
+                src="imgs/Avaliações/anna.png"
+                alt="Foto de Ariadne Pavanelli"
+                class="rounded-full w-11 h-11 object-cover border border-gray-300"
+              />
+              <h2 class="font-semibold text-gray-800 text-sm sm:text-base">
+                Mirian Gui
+              </h2>
+            </div>
+
+            <!-- Estrelas -->
+            <div class="flex text-amber-400 text-sm">
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill mr-1"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+
+            <!-- Avaliação -->
+            <p class="leading-snug text-xs sm:text-sm text-gray-700">
+              A competência e o profissionalismo são admiráveis!!
             </p>
           </div>
         </div>
@@ -887,7 +1191,59 @@
           />
 
           <img
+            src="imgs/Section4/sec4.jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (10).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (11).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (12).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (13).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (14).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (15).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (16).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (17).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (18).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (19).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (20).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
             src="imgs/Section4/sec4 (1).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4.jpeg"
             class="w-[290px] h-[425px] rounded-[30px] shadow"
           />
           <img
@@ -906,6 +1262,7 @@
             src="imgs/Section4/sec4 (5).jpeg"
             class="w-[290px] h-[425px] rounded-[30px] shadow"
           />
+
           <img
             src="imgs/Section4/sec4 (6).jpeg"
             class="w-[290px] h-[425px] rounded-[30px] shadow"
@@ -922,12 +1279,57 @@
             src="imgs/Section4/sec4 (9).jpeg"
             class="w-[290px] h-[425px] rounded-[30px] shadow"
           />
+          <img
+            src="imgs/Section4/sec4 (10).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (11).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (12).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (13).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (14).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (15).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (16).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (17).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (18).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (19).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
+          <img
+            src="imgs/Section4/sec4 (20).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          />
         </div>
       </div>
     </section>
 
     <section
-      class="min-h-screen bg-[#7FA384] flex items-center justify-center py-12 px-4" id="sobre"
+      class="min-h-screen bg-[#7FA384] flex items-center justify-center py-12 px-4"
+      id="sobre"
     >
       <div
         class="flex flex-col bg-transparent backdrop-blur-md rounded-2xl sdw lg:flex-row items-center p-14 bg justify-center gap-10 w-full max-w-7xl"
@@ -992,7 +1394,8 @@
 
     <section class="min-h-screen px-4 py-10">
       <i
-        class="bi bi-arrow-down-circle-fill text-[#7FA384] text-4xl flex justify-center pt-10" id="local"
+        class="bi bi-arrow-down-circle-fill text-[#7FA384] text-4xl flex justify-center pt-10"
+        id="local"
       ></i>
 
       <h1
@@ -1051,65 +1454,125 @@
     </section>
 
     <footer class="bg-[#7FA384] text-white px-6 md:px-16 py-10">
-  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+      <div
+        class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-start"
+      >
+        <!-- Logo -->
+        <div class="flex justify-center md:justify-start">
+          <a href="#inicio"
+            ><img
+              src="imgs/logotipos/ThajoBranca.png"
+              alt="Logo Thajo Podologia"
+              class="w-32"
+          /></a>
+        </div>
 
-    <!-- Logo -->
-    <div class="flex justify-center md:justify-start">
-      <a href="#inicio"><img src="imgs/logotipos/ThajoBranca.png" alt="Logo Thajo Podologia" class="w-32" /></a>
-    </div>
+        <!-- Serviços com hover -->
+        <div class="text-left">
+          <h2 class="font-semibold mb-2">Thajo Podologia</h2>
+          <ul class="space-y-1 text-sm">
+            <li>
+              <a
+                href="#inicio"
+                class="inline-block transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]"
+                >Início</a
+              >
+            </li>
+            <li>
+              <a
+                href="#tratamentos"
+                class="inline-block transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]"
+                >Tratamentos</a
+              >
+            </li>
+            <li>
+              <a
+                href="#avaliacoes"
+                class="inline-block transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]"
+                >Avaliações</a
+              >
+            </li>
+            <li>
+              <a
+                href="#thajo"
+                class="inline-block transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]"
+                >Thajo</a
+              >
+            </li>
+            <li>
+              <a
+                href="#sobre"
+                class="inline-block transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]"
+                >Sobre nós</a
+              >
+            </li>
+            <li>
+              <a
+                href="#local"
+                class="inline-block transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]"
+                >Onde estamos</a
+              >
+            </li>
+          </ul>
+        </div>
 
-    <!-- Serviços com hover -->
-    <div class="text-left">
-      <h2 class="font-semibold mb-2">Thajo Podologia</h2>
-      <ul class="space-y-1 text-sm">
-        <li><a href="#inicio" class="inline-block transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]">Início</a></li>
-        <li><a href="#tratamentos" class="inline-block transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]">Tratamentos</a></li>
-        <li><a href="#avaliacoes" class="inline-block transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]">Avaliações</a></li>
-        <li><a href="#thajo" class="inline-block transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]">Thajo</a></li>
-        <li><a href="#sobre" class="inline-block transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]">Sobre nós</a></li>
-        <li><a href="#local" class="inline-block transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]">Onde estamos</a></li>
-      </ul>
-    </div>
+        <!-- Redes sociais com hover -->
+        <div class="text-left">
+          <h2 class="font-semibold mb-2">Redes Sociais</h2>
+          <ul class="space-y-2 text-sm">
+            <li>
+              <a
+                href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
+                target="_blank"
+                class="flex items-center justify-start gap-2 transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]"
+              >
+                <i class="bi bi-whatsapp"></i> 55 (11) 98094-6390
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/thajo_podologia"
+                target="_blank"
+                class="flex items-center justify-start gap-2 transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]"
+              >
+                <i class="bi bi-instagram"></i> @thajo_podologia
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.tiktok.com/@thajo_podologia"
+                target="_blank"
+                class="flex items-center justify-start gap-2 transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]"
+              >
+                <i class="bi bi-tiktok"></i> @thajo_podologia
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/thajopodologia"
+                target="_blank"
+                class="flex items-center justify-start gap-2 transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]"
+              >
+                <i class="bi bi-facebook"></i> Thajo Podologia
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
 
-    <!-- Redes sociais com hover -->
-    <div class="text-left">
-      <h2 class="font-semibold mb-2">Redes Sociais</h2>
-      <ul class="space-y-2 text-sm">
-        <li>
-          <a href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0" target="_blank" class="flex items-center justify-start gap-2 transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]">
-            <i class="bi bi-whatsapp"></i> 55 (11) 98094-6390
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/thajo_podologia" target="_blank" class="flex items-center justify-start gap-2 transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]">
-            <i class="bi bi-instagram"></i> @thajo_podologia
-          </a>
-        </li>
-        <li>
-          <a href="https://www.tiktok.com/@thajo_podologia" target="_blank" class="flex items-center justify-start gap-2 transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]">
-            <i class="bi bi-tiktok"></i> @thajo_podologia
-          </a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/thajopodologia" target="_blank" class="flex items-center justify-start gap-2 transition-all duration-300 hover:-translate-y-0.5 hover:text-[#e2e2e2]">
-            <i class="bi bi-facebook"></i> Thajo Podologia
-          </a>
-        </li>
-      </ul>
-    </div>
-
-  </div>
-
-  <!-- Linha inferior -->
-  <div class="border-t border-white mt-8 pt-4 text-center text-xs">
-    Todos os direitos reservados thajo Podologia CNPJ 22.399.137/0001-01 @ 2025 |
-    Desenvolvido por <a href="https://www.instagram.com/matheuslgarcez" target="_blank" class="underline hover:text-[#e2e2e2] hover:-translate-y-0.5 inline-block transition-all duration-300">@matheuslgarcez</a>
-  </div>
-</footer>
-
-
+      <!-- Linha inferior -->
+      <div class="border-t border-white mt-8 pt-4 text-center text-xs">
+        Todos os direitos reservados thajo Podologia CNPJ 22.399.137/0001-01 @
+        2025 | Desenvolvido por
+        <a
+          href="https://www.instagram.com/matheuslgarcez"
+          target="_blank"
+          class="underline hover:text-[#e2e2e2] hover:-translate-y-0.5 inline-block transition-all duration-300"
+          >@matheuslgarcez</a
+        >
+      </div>
+    </footer>
 
     <script src="./js/script.js"></script>
-
   </body>
 </html>

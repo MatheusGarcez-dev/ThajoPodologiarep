@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
  const carrossel = document.getElementById("carrosselImagens");
  let position = 0;
- const speed = 1; 
+ const speed = 2; 
 
  function animar() {
    position -= speed;
