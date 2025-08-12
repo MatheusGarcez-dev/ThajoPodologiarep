@@ -71,4 +71,15 @@
   background-color: #5f7a60;
 }
 
+/* arquivo .css */
+#parallax-bg {
+  background-image: url('/imgs/Section1/bg-certo-cel.png');
+}
+@media (min-width: 640px) { /* sm */
+  #parallax-bg {
+    background-image: url('/imgs/Section1/bg-certo-desk.png');
+  }
+}
+
+
 }
