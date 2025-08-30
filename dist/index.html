@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br" class="scroll-smooth">
   <head>
+    <!-- Event snippet for Contato conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-942791047/Sn26CPrkgY8bEIezx8ED',
+      'value': 1.0,
+      'currency': 'BRL',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -135,18 +153,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             Cada detalhe importa: oferecemos cuidado completo para a sua saúde
             podal
           </p>
-          <a
-            href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
-            class="inline-block group relative dark:bg-white hover:border-2 hover:border-solid w-[160px] mt-auto hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
-          >
-            <span
-              class="relative z-10 text-[#7FA384] transition-colors duration-400 group-hover:text-white"
-              >Agendar Agora</span
+         <a
+              href="https://api.whatsapp.com/send/?phone=5511980946390&text&type=phone_number&app_absent=0"
+              class="inline-block group relative hover:border-2 hover:border-solid w-[160px] mt-auto hover:border-white overflow-hidden rounded-4xl bg-[#7FA384] px-6 py-2 text-sm font-medium tracking-wide text-ghostwhite no-underline"
             >
-            <span
-              class="absolute left-[-10%] top-0 z-0 h-full w-[120%] -skew-x-12 bg-white transition-transform duration-400 cubic-bezier(0.4, 0, 0.2, 1) group-hover:translate-x-full"
-            ></span>
-          </a>
+              <span
+                class="relative z-10 text-[#7FA384] transition-colors duration-400 group-hover:text-white"
+                >Agendar Agora</span
+              >
+              <span
+                class="absolute left-[-10%] top-0 z-0 h-full w-[120%] -skew-x-12 bg-white transition-transform duration-400 cubic-bezier(0.4, 0, 0.2, 1) group-hover:translate-x-full"
+              ></span>
+            </a>
         </div>
       </div>
     </section>
@@ -1282,73 +1300,82 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         Aqui, cada detalhe foi planejado para que você se sinta acolhida(o)
         desde o primeiro passo.
       </p>
-
+      
       <div class="relative overflow-hidden w-full">
         <div id="carrosselImagens" class="flex gap-4 w-max">
           <!-- Suas imagens + duplicadas para efeito infinito -->
-           
           <img
-            src="imgs/Section4/sec4 (1).jpeg"
-            class="w-[290px] h-[425px] rounded-[30px] shadow"
+          src="imgs/Section4/novas (9).jpeg"
+          class="w-[290px] h-[425px] rounded-[30px] shadow"
           />
+          
           <img
-            src="imgs/Section4/sec4 (2).jpeg"
+          src="imgs/Section4/novas (7).jpeg"
             class="w-[290px] h-[425px] rounded-[30px] shadow"
-          />
-          <img
-            src="imgs/Section4/sec4 (5).jpeg"
-            class="w-[290px] h-[425px] rounded-[30px] shadow"
-          />
-          <img
-            src="imgs/Section4/sec4 (6).jpeg"
-            class="w-[290px] h-[425px] rounded-[30px] shadow"
-          />
-          <img
+            />
+            
+            <img
             src="imgs/Section4/sec4 (7).jpeg"
             class="w-[290px] h-[425px] rounded-[30px] shadow"
-          />
-          <img
+            />
+            
+            <img
             src="imgs/Section4/sec4 (8).jpeg"
             class="w-[290px] h-[425px] rounded-[30px] shadow"
-          />
-          <img
-            src="imgs/Section4/sec4 (9).jpeg"
-            class="w-[290px] h-[425px] rounded-[30px] shadow"
-          />
-
-          <img
-            src="imgs/Section4/sec4.jpeg"
-            class="w-[290px] h-[425px] rounded-[30px] shadow"
-          />
-          <img
+            />
+            
+            <img
             src="imgs/Section4/sec4 (14).jpeg"
             class="w-[290px] h-[425px] rounded-[30px] shadow"
-          />
-      
-          <img
+            />
+            
+            <img
             src="imgs/Section4/sec4 (16).jpeg"
             class="w-[290px] h-[425px] rounded-[30px] shadow"
-          />
-
-          <img
+            />
+            
+            <img
+            src="imgs/Section4/sec4 (9).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+            />
+            
+            <img
+            src="imgs/Section4/novas (8).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+            />
+            
+            <img
+            src="imgs/Section4/sec4 (1).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+            />
+            <img
+            src="imgs/Section4/sec4 (2).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+            />
+            <img
+            src="imgs/Section4/sec4 (5).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+            />
+            <img
+            src="imgs/Section4/sec4 (6).jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+            />
+            <img
+              src="imgs/Section4/novas (1).png"
+              class="w-[290px] h-[425px] rounded-[30px] shadow"
+            />
+            
+            <img
+            src="imgs/Section4/sec4.jpeg"
+            class="w-[290px] h-[425px] rounded-[30px] shadow"
+            />
+            
+            <img
             src="imgs/Section4/novas (10).png"
             class="w-[290px] h-[425px] rounded-[30px] shadow"
           />
         
-          <img
-            src="imgs/Section4/novas (9).jpeg"
-            class="w-[290px] h-[425px] rounded-[30px] shadow"
-          />
         
-          <img
-            src="imgs/Section4/novas (8).jpeg"
-            class="w-[290px] h-[425px] rounded-[30px] shadow"
-          />
-        
-          <img
-            src="imgs/Section4/novas (7).jpeg"
-            class="w-[290px] h-[425px] rounded-[30px] shadow"
-          />
         
           <img
             src="imgs/Section4/novas (6).jpeg"
@@ -1370,10 +1397,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             class="w-[290px] h-[425px] rounded-[30px] shadow"
           />
         
-          <img
-            src="imgs/Section4/novas (1).png"
-            class="w-[290px] h-[425px] rounded-[30px] shadow"
-          />
         
           <img
             src="imgs/Section4/sec4 (1).jpeg"
