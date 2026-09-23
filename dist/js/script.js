@@ -53,22 +53,6 @@ document.querySelectorAll(".item-menu").forEach((link) => {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  const whatsappUrl = "https://wa.me/5511980946390";
-
-  for (let i = 1; i <= 11; i++) {
-    const btn = document.getElementById("botao" + i);
-    if (btn) {
-      btn.style.cursor = "pointer";
-      btn.addEventListener("click", function () {
-        if (typeof gtag_report_conversion === "function") {
-          gtag_report_conversion(whatsappUrl);
-        } else {
-          window.open(whatsappUrl, "_blank");
-        }
-      });
-    }
-  }
-
   const carousel = document.getElementById("carousel");
   const next = document.getElementById("next");
   const prev = document.getElementById("prev");
